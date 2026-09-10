@@ -96,5 +96,19 @@ By default Claude Code **asks permission** before using a tool. `/permissions` l
 
 ---
 
+## 6. Why Terminal (over GUI)
+
+Claude Code can be accessed via **terminal, desktop app, web, or a VS Code plugin** — but the terminal is the way to go. Why:
+
+1. **It's the OG / power-user way** — the original interface; power users work here.
+2. **New features ship to the CLI first** — the GUIs are wrappers built on top, so they catch up later.
+3. **Full feature access** — lets you do everything, including modifying memory (`/memory`), configuring hooks, etc. GUIs often say *"continue in terminal"* for these.
+4. **Remote work possible** — when you SSH into a machine (which may have no graphical desktop), the terminal is all you have.
+5. **Lightweight — no context-switching** between windows; fast and keyboard-driven.
+6. **Slash commands right there** — type `/` to access the full command menu instantly.
+7. **Bash + Claude in one place** — the same terminal runs your normal bash commands *and* Claude Code commands together.
+
+---
+
 ## One-line takeaway
 Slash commands turn repeated prompts into single keystrokes. Learn each one **as you need it** — no need to memorize all upfront.
